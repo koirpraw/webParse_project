@@ -1,4 +1,7 @@
 
+#Create a Virtual environment and add dependencies to that environment as needed for the project,
+#  do not create global dependencies
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -27,7 +30,6 @@ for job_element in job_elements:
     print(company_element.text.strip())
     print(location_element.text.strip())
     print()
-    
 
 
 # print(results.prettify())
