@@ -32,5 +32,14 @@ for job_element in job_elements:
     print()
 
 
-# print(results.prettify())
+print(results.prettify())
 
+# URL = "https://realpython.github.io/fake-jobs/"
+
+# page = requests.get(URL)
+
+# soup = BeautifulSoup(page.content, "html.parser")
+
+# results = soup.find(class_="combinedClass")
+
+# print(results.prettify())
